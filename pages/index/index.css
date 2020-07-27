@@ -1,0 +1,32 @@
+/**index.wxss**/
+.index_swiper .swiper {
+  width: 750rpx;
+  height: 340rpx;
+}
+.index_swiper .swiper .swiper_img {
+  width: 100%;
+}
+.index_cate {
+  display: flex;
+}
+.index_cate .cate_item {
+  padding: 20rpx;
+  flex: 1;
+}
+.index_cate .cate_item .cate_img {
+  width: 100%;
+}
+.index_floor .floor_group .floor_title {
+  padding: 10px 0;
+}
+.index_floor .floor_group .floor_title image {
+  width: 100%;
+}
+.index_floor .floor_group .floor_list navigator {
+  float: left;
+  width: 33.3%;
+}
+.index_floor .floor_group .floor_list:nth-last-child(-n+4) image {
+  width: 232rpx;
+  height: 386rpx;
+}
